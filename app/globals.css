@@ -26,12 +26,36 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+@keyframes mouse-scroll {
+  0% {
+    transform: translate(-50%, 0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 14px);
+    opacity: 0;
+  }
+}
 
-@keyframes mouse-bounce {
+@keyframes mouse-body-bounce {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(8px);
+    transform: translateY(12px);
   }
 }
+
+@utility animate-mouse-scroll {
+  animation: mouse-scroll 1.5s ease-in-out infinite;
+}
+/* 
+@utility animate-mouse-body {
+  animation: mouse-body-bounce 1.2s ease-in-out infinite;
+} */

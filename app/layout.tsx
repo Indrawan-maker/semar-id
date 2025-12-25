@@ -24,11 +24,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+<body
+  className={`
+    ${geistSans.variable} 
+    ${geistMono.variable} 
+    antialiased 
+    bg-black 
+    text-white 
+    relative
+  `}
+>
+  {/* Glow Background */}
+  <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+    <div className="absolute top-[-200px] left-[-200px] w-[600px] h-[600px] bg-purple-500/30 rounded-full blur-[160px]" />
+    <div className="absolute top-[200px] right-[-200px] w-[600px] h-[600px] bg-cyan-400/20 rounded-full blur-[160px]" />
+    <div className="absolute top-[40%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-indigo-500/10 rounded-full blur-[180px]" />
+  </div>
+
+  {children}
+</body>
+
+
     </html>
   );
 }

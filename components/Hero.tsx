@@ -1,45 +1,62 @@
 "use client";
-import { MoveRight, MessageCircle, Layers, Award, Zap } from "lucide-react";
+import { ArrowRight, MessageCircle, Layers, Award, Zap } from "lucide-react";
 
 export const Hero = () => {
   return (
     <>
-      <main className="grid place-items-center gap-12 mt-18">
+      <main className="grid place-items-center gap-16 mt-34">
         <div className="grid place-items-center gap-2">
           <div className="border border-[#A374FF] rounded-4xl p-2 text-[#A374FF] min-w-60 max-w-60 text-center font-semibold">
             Menuju Level Berikutnya
           </div>
           <h2 className="font-bold text-9xl text-[#FFFFE3]">SEMAR</h2>
-          <p className="font-bold text-6xl text-[#FFD074]">Studio Web & Digital</p>
-          <p className="font-semibold text-xl text-center text-[#17F1D1]">Website yang dibangun untuk mengembangkan bisnismu</p>
-          <div className="flex justify-center items-center gap-12">
-            <span>
+          <p className="font-bold text-6xl text-[#FFD074]">
+            Studio Web & Digital
+          </p>
+          <p className="font-normal text-2xl text-center text-[#17F1D1] mt-8">
+            Bikin Website yang Bantu Bisnismu Berkembang.
+          </p>
+          <div className="flex justify-center items-center gap-6 mt-28">
+            <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
               <Layers />
               Modern Tech Stack
             </span>
-            <span>
+            <span className="flex justify-center items-center gap-2 border border-[#FFD074] rounded-4xl p-2 text-[#FFD074] min-w-40 max-w-40  font-semibold">
               <Zap />
               Fast Delivery
             </span>
-            <span>
+            <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
               <Award />
               Quality Assurance
             </span>
           </div>
-          <div>
-            <button className="hover:cursor-pointer">
+          <div className="flex gap-4 mt-18">
+            <button className="hover:cursor-pointer flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-62 max-w-62 font-semibold">
               <MessageCircle />
               Konsultasi Gratis
             </button>
-            <button className="hover:cursor-pointer">
+            <button className="hover:cursor-pointer flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-62 max-w-62 font-semibold">
               {" "}
-              <MoveRight /> Lihat Portfolio
+              <ArrowRight />
+              Lihat Portfolio
             </button>
           </div>
         </div>
         <p>📍 SAMARINDA, INDONESIA</p>
-        <div className="w-5.5 h-9.5 border-2 border-white rounded-full relative">
-          <span className="w-1 h-2 bg-white absolute left-1/2 top-2 -translate-x-1/2 rounded-full mouse-bounce"></span>
+        {/* Mouse Scroll Indicator */}
+        <div
+          className="w-6 h-10 border-2 border-white rounded-full relative"
+          style={{
+            animation: "mouse-body-bounce 1.8s ease-in-out infinite",
+          }}
+        >
+          <span
+            className="w-1 h-2 bg-white absolute left-1/2 top-2 rounded-full"
+            style={{
+              animation: "mouse-scroll 1.8s ease-in-out infinite",
+              transform: "translateX(-50%)",
+            }}
+          ></span>
         </div>
       </main>
     </>
