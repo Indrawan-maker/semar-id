@@ -10,7 +10,9 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
+import { MessageCircle } from 'lucide-react';
 import { useState } from "react";
+
 
 export default function Nav() {
   const navItems = [
@@ -19,12 +21,12 @@ export default function Nav() {
       link: "/",
     },
     {
-      name: "ABOUT",
-      link: "/about",
+      name: "PORTFOLIO",
+      link: "/portfolio",
     },
     {
-      name: "CONTACT",
-      link: "/contact",
+      name: "ABOUT",
+      link: "/about",
     },
   ];
 
@@ -39,7 +41,7 @@ export default function Nav() {
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             <NavbarButton variant="secondary">BUTUH BANTUAN CEPAT ?</NavbarButton>
-            <NavbarButton variant="primary">Konsultasi</NavbarButton>
+            <NavbarButton variant="primary" className="flex justify-center gap-2 items-center"><MessageCircle className="w-5 h-5"/>Konsultasi</NavbarButton>
           </div>
         </NavBody>
 
@@ -78,9 +80,10 @@ export default function Nav() {
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
-                className="w-full"
-              >
-                Konsultasi
+                className="w-full flex items-center justify-center gap-2"
+                >
+
+                <MessageCircle className="w-5 h-5"/>Konsultasi
               </NavbarButton>
             </div>
           </MobileNavMenu>
