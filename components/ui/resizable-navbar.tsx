@@ -1,8 +1,5 @@
 "use client";
 import Image from "next/image";
-
-
-
 import { cn } from "@/lib/utils";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import {
@@ -240,14 +237,18 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <Image
-      className="rounded-full object-cover"
-        src="/images/semar-bgwhite.png"
-        alt="logo"
-        width={40}
-        height={40}
-      />
-      <span className="font-medium text-black dark:text-white">SEMAR</span>
+      <motion.div
+        initial={{ scale: 1 }}
+        animate={{ scale: 1 }}
+      >
+        <Image
+          className="rounded-full"
+          src="/images/semar-logo.png"
+          alt="logo"
+          width={40}
+          height={40}
+        />
+      </motion.div>
     </a>
   );
 };
@@ -270,7 +271,7 @@ export const NavbarButton = ({
   | React.ComponentPropsWithoutRef<"button">
 )) => {
   const baseStyles =
-    "px-4 py-2 rounded-md bg-white button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center";
+    "px-4 py-2 rounded-md bg-green button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center";
 
   const variantStyles = {
     primary:
