@@ -11,10 +11,10 @@ export const Hero = () => {
           </div>
           <h2 className="font-bold text-9xl text-[#FFFFE3]">SEMAR</h2>
           <p className="font-bold text-6xl text-[#FFD074]">
-            Studio Web & Digital
+            Development Studio
           </p>
-          <p className="font-normal text-2xl text-center text-[#17F1D1] mt-8">
-            Bikin Website yang Bantu Bisnismu Berkembang.
+          <p className="font-normal text-2xl text-center text-[#FFFFE3] mt-8">
+            Solusi Web Modern dengan Laravel <span className="text-[#17F1D1]">& Next.js</span>
           </p>
           <div className="flex justify-center items-center gap-6 mt-28">
             <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
