@@ -32,11 +32,11 @@ Website berkualitas tinggi dengan harga terjangkau <br /> dikerjakan langsung ta
             </span>
           </div>
           <div className="flex gap-4 mt-18">
-            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-[#17F1D1] hover:text-[#17F1D1]  rounded-full p-2 text-[#FFFFE3] min-w-62 max-w-62 font-semibold">
+            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#17F1D1] rounded-full p-2 text-[#FFFFE3] min-w-62 max-w-62 font-semibold">
               <MessageCircle />
               Konsultasi Gratis
             </button>
-            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#A374FF]  hover:text-[#A374FF] rounded-full p-2 text-[#FFFFE3] min-h-18 max-h-18 min-w-62 max-w-62 font-semibold">
+            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#A374FF] rounded-full p-2 text-[#FFFFE3] min-h-18 max-h-18 min-w-62 max-w-62 font-semibold transition-all duration-500 ease-in-out hover:scale-105">
               
               <ArrowRight />
               Lihat Portfolio
@@ -64,7 +64,7 @@ Website berkualitas tinggi dengan harga terjangkau <br /> dikerjakan langsung ta
             <div className="text-[#FFFFE3] text-5xl tracking-widest min-w-220 max-w-220 text-center font-semibold"
             >PAKET LAYANAN KAMI
             </div>
-            <p className="text-[#c1b08f] text-xl tracking-wider min-w-160 max-w-160 text-center font-normal">Pilih paket yang sesuai dengan kebutuhan bisnis Anda</p>
+            <p className="text-[#c1b08f] text-xl tracking-wider min-w-160 max-w-160 text-center font-normal -mt-6">Pilih paket yang sesuai dengan kebutuhan bisnis Anda</p>
       </main>
     </>
   );
