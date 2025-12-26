@@ -4,7 +4,7 @@ import { ArrowRight, MessageCircle, Layers, Award, Zap } from "lucide-react";
 export const Hero = () => {
   return (
     <>
-      <main className="grid place-items-center gap-16 mt-34">
+      <main className="grid place-items-center gap-12 mt-34">
         <div className="grid place-items-center gap-2">
           <div className="border border-[#A374FF] rounded-4xl p-2 text-[#A374FF] min-w-60 max-w-60 text-center font-semibold">
             Menuju Level Berikutnya
@@ -13,10 +13,11 @@ export const Hero = () => {
           <p className="font-bold text-6xl text-[#FFD074]">
             Development Studio
           </p>
-          <p className="font-normal text-2xl text-center text-[#FFFFE3] mt-8">
-            Solusi Web Modern dengan Laravel <span className="text-[#17F1D1]">& Next.js</span>
+          <p className="font-normal text-xl text-center text-[#FFFFE3] mt-8">
+            #1 untuk UKM & Startup
+Website berkualitas tinggi dengan harga terjangkau <br /> dikerjakan langsung tanpa perantara.<span className="text-[#17F1D1]"> Tingkatkan kredibilitas bisnis Anda dalam 3-7 hari kerja!</span>
           </p>
-          <div className="flex justify-center items-center gap-6 mt-28">
+          <div className="flex justify-center items-center gap-6 mt-22">
             <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
               <Layers />
               Modern Tech Stack
@@ -31,12 +32,12 @@ export const Hero = () => {
             </span>
           </div>
           <div className="flex gap-4 mt-18">
-            <button className="hover:cursor-pointer flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-62 max-w-62 font-semibold">
+            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-[#17F1D1] hover:text-[#17F1D1]  rounded-full p-2 text-[#FFFFE3] min-w-62 max-w-62 font-semibold">
               <MessageCircle />
               Konsultasi Gratis
             </button>
-            <button className="hover:cursor-pointer flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-62 max-w-62 font-semibold">
-              {" "}
+            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#A374FF]  hover:text-[#A374FF] rounded-full p-2 text-[#FFFFE3] min-h-18 max-h-18 min-w-62 max-w-62 font-semibold">
+              
               <ArrowRight />
               Lihat Portfolio
             </button>
@@ -58,6 +59,12 @@ export const Hero = () => {
             }}
           ></span>
         </div>
+        {/* hal 2 */}
+
+            <div className="text-[#FFFFE3] text-5xl tracking-widest min-w-220 max-w-220 text-center font-semibold"
+            >PAKET LAYANAN KAMI
+            </div>
+            <p className="text-[#c1b08f] text-xl tracking-wider min-w-160 max-w-160 text-center font-normal">Pilih paket yang sesuai dengan kebutuhan bisnis Anda</p>
       </main>
     </>
   );
