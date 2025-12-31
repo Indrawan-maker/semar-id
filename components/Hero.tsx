@@ -14,8 +14,12 @@ export const Hero = () => {
             Development Studio
           </p>
           <p className="font-normal text-xl text-center text-[#FFFFE3] mt-8">
-            #1 untuk UKM & Startup
-Website berkualitas tinggi dengan harga terjangkau <br /> dikerjakan langsung tanpa perantara.<span className="text-[#17F1D1]"> Tingkatkan kredibilitas bisnis Anda dalam 3-7 hari kerja!</span>
+            #1 untuk UKM & Startup Kami bantu bisnis lokal muncul di Google &
+            terlihat profesional <br /> dikerjakan langsung tanpa perantara.
+            <span className="text-[#17F1D1]">
+              {" "}
+              Tingkatkan kredibilitas bisnis Anda dalam 3-7 hari kerja!
+            </span>
           </p>
           <div className="flex justify-center items-center gap-6 mt-22">
             <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
@@ -37,7 +41,6 @@ Website berkualitas tinggi dengan harga terjangkau <br /> dikerjakan langsung ta
               Konsultasi Gratis
             </button>
             <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#A374FF] rounded-full p-2 text-[#FFFFE3] min-h-18 max-h-18 min-w-62 max-w-62 font-semibold transition-all duration-500 ease-in-out hover:scale-105">
-              
               <ArrowRight />
               Lihat Portfolio
             </button>
