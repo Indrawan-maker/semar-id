@@ -22,7 +22,7 @@ export const Portfolio = () => {
             <div className="w-92">
              <Carousel />
             </div>
-            <div>
+            <div className="w-92">
              <Carousel />
             </div>
             <div className="w-92">

@@ -53,24 +53,77 @@ export default function Carousel() {
     };
   }, [emblaApi]);
 
+  // Auto-scroll setiap 10 detik
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const autoScroll = setInterval(() => {
+      emblaApi.scrollNext();
+    }, 4800);
+
+    return () => clearInterval(autoScroll);
+  }, [emblaApi]);
+
+  // Fungsi untuk tombol panah
+  const scrollPrev = () => emblaApi?.scrollPrev();
+  const scrollNext = () => emblaApi?.scrollNext();
+
   return (
     <div className="w-full border border-[#742eff] rounded-2xl">
-      {/* Carousel */}
-      <div className="overflow-hidden rounded-tr-2xl rounded-tl-2xl" ref={emblaRef}>
-        <div className="flex">
-          {slides.map((slide) => (
-            <div
-              key={slide.id}
-              className="flex-[0_0_100%] min-w-0 relative"
-            >
-              <Image
-                src={slide.image}
-                alt={`Portfolio ${slide.id}`}
-                className="h-full object-contain w-full"
-              />
-            </div>
-          ))}
+      {/* Carousel dengan tombol panah */}
+      <div className="relative">
+        <div className="overflow-hidden rounded-tr-2xl rounded-tl-2xl" ref={emblaRef}>
+          <div className="flex">
+            {slides.map((slide) => (
+              <div
+                key={slide.id}
+                className="flex-[0_0_100%] min-w-0 relative"
+              >
+                <Image
+                  src={slide.image}
+                  alt={`Portfolio ${slide.id}`}
+                  className="h-full object-contain w-full"
+                />
+              </div>
+            ))}
+          </div>
         </div>
+
+        {/* Tombol Panah Kiri */}
+        <button
+          onClick={scrollPrev}
+          className="absolute left-4 top-1/2 -translate-y-1/2 text-white/60 hover:text-white transition-all duration-300"
+          aria-label="Previous slide"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={3}
+            stroke="currentColor"
+            className="w-8 h-8"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </button>
+
+        {/* Tombol Panah Kanan */}
+        <button
+          onClick={scrollNext}
+          className="absolute right-4 top-1/2 -translate-y-1/2 text-white/60 hover:text-white transition-all duration-300"
+          aria-label="Next slide"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={3}
+            stroke="currentColor"
+            className="w-8 h-8"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </button>
       </div>
 
       {/* Dots */}
