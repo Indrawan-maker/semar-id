@@ -10,8 +10,8 @@ export const Hero = () => {
             Menuju Level Berikutnya
           </div>
           <h2 className="font-bold text-9xl text-[#FFFFE3]">SEMAR</h2>
-          <p className="font-bold text-6xl text-[#FFD074]">
-            Development Studio
+          <p className="font-bold text-5xl text-[#FFD074] flex flex-wrap">
+            Jasa Pembuatan Website Bisnis Profesional
           </p>
           <p className="font-normal text-xl text-center text-[#FFFFE3] mt-8">
             #1 untuk UKM & Startup Kami bantu bisnis lokal muncul di Google &

@@ -66,7 +66,7 @@ export default function Carousel() {
               <Image
                 src={slide.image}
                 alt={`Portfolio ${slide.id}`}
-                className="h-full object-cover w-full"
+                className="h-full object-contain w-full"
               />
             </div>
           ))}
