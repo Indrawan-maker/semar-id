@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll"; 
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,11 +38,12 @@ export default function RootLayout({
 >
   {/* Glow Background */}
   <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
-    <div className="absolute top-[-200px] left-[-200px] w-[600px] h-[600px] bg-purple-500/30 rounded-full blur-[160px]" />
-    <div className="absolute top-[200px] right-[-200px] w-[600px] h-[600px] bg-cyan-400/20 rounded-full blur-[160px]" />
-    <div className="absolute top-[40%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-indigo-500/10 rounded-full blur-[180px]" />
+    <div className="absolute -top-50 -left-200px w-150 h-150 bg-purple-500/30 rounded-full blur-[160px]" />
+    <div className="absolute top-50 -right-50 w-150 h-150 bg-cyan-400/20 rounded-full blur-[160px]" />
+    <div className="absolute top-[40%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-175 h-175 bg-indigo-500/10 rounded-full blur-[180px]" />
   </div>
   <SmoothScroll />
+  <WhatsAppButton />
 
   {children}
 </body>

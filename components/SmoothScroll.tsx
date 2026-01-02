@@ -29,7 +29,7 @@ export default function SmoothScroll() {
       
       // Hitung deltaTime (selisih waktu antar frame)
       const now = Date.now()
-      const deltaTime = now - scroll.lastTime
+      // const deltaTime = now - scroll.lastTime
       scroll.lastTime = now
 
       // Update target dari actual scroll position
