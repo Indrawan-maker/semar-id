@@ -16,22 +16,22 @@ export const Portfolio = () => {
             <div className="w-82 md:w-92 mx-auto">
             <Carousel />
             </div>
-            <div className="w-82 md:w-92 mx-auto">
+            <div className="w-82 sm:w-92 mx-auto">
               <Carousel />
             </div>
-            <div className="w-82 md:w-92 mx-auto">
+            <div className="w-82 sm:w-92 mx-auto">
              <Carousel />
             </div>
-            <div className="w-82 md:w-92 mx-auto">
+            <div className="w-82 sm:w-92 mx-auto">
              <Carousel />
             </div>
-            <div className="w-82 md:w-92 mx-auto">
+            <div className="w-82 sm:w-92 mx-auto">
              <Carousel />
             </div>
-            <div className="w-82 md:w-92 mx-auto">
+            <div className="w-82 sm:w-92 mx-auto">
              <Carousel />
             </div>
-            <div className="w-82 md:w-92 mx-auto">
+            <div className="w-82 sm:w-92 mx-auto">
              <Carousel />
             </div>
         </section>
