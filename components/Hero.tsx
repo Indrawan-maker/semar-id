@@ -9,10 +9,10 @@ export const Hero = () => {
           <div className="border border-[#A374FF] rounded-4xl p-2 text-[#A374FF] min-w-60 max-w-60 text-center font-semibold">
             Menuju Level Berikutnya
           </div>
-          <h2 className="font-bold text-6xl md:text-9xl text-[#FFFFE3]">SEMAR</h2>
-          <p className="font-bold text-3xl md:text-5xl text-[#FFD074] max-w-80 min-w-80 md:max-w-180 md:min-w-180 text-center">
+          <h1 className="font-bold text-6xl md:text-9xl text-[#FFFFE3]">SEMAR</h1>
+          <h2 className="font-bold text-3xl md:text-5xl text-[#FFD074] max-w-80 min-w-80 md:max-w-180 md:min-w-180 text-center">
             Jasa Pembuatan Website Profesional
-          </p>
+          </h2>
           
           <p className="flex flex-wrap font-normal text-sm md:text-xl text-center max-w-80 min-w-80 md:max-w-180 md:min-w-180 text text-[#FFFFE3] mt-4 md:mt-8">
             #1 untuk UKM & Startup Kami bantu bisnis lokal muncul di Google & terlihat profesional dikerjakan langsung tanpa perantara.
