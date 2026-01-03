@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react';
 export default function WhatsAppButton() {
   const phoneNumber = '6282253129334'; 
   // Pesan yang akan otomatis muncul di chat WhatsApp
-  const message = `Halo mas saya mau konsultasi tentang`;
+  const message = `Halo kak saya mau konsultasi tentang`;
   
   const handleClick = () => {
     // Format URL WhatsApp dengan text yang sudah diisi
@@ -29,7 +29,7 @@ export default function WhatsAppButton() {
         
         {/* Tooltip (opsional) */}
         <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-800 text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-          Chat via WhatsApp
+          Bantu saya saya pilih paket
         </span>
       </button>
     </>

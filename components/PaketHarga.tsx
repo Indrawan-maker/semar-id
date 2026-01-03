@@ -7,7 +7,7 @@ export const PaketHarga = () => {
         <div className="text-[#FFFFE3] text-5xl tracking-widest min-w-180 max-w-180 text-center font-semibold">
           PAKET LAYANAN KAMI
         </div>
-        <p className="text-[#c1b08f] text-xl tracking-wider min-w-160 max-w-160 text-center font-normal -mt-6">
+        <p className="text-gray-100 text-xl tracking-wider min-w-160 max-w-160 text-center font-normal -mt-6">
           Pilih paket yang sesuai dengan kebutuhan bisnis Anda
         </p>
       </header>
@@ -110,12 +110,12 @@ export const PaketHarga = () => {
               </p>
             </div>
             <div className="flex justify-center items-center">
-              <button className="hover:cursor-pointer flex justify-center items-center gap-4 hover:border-[#A374FF] rounded-full p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold shadow-[0_8px_24px_rgba(163,116,255,0.5)] hover:shadow-[0_12px_32px_rgba(163,116,255,0.7)] transition-all duration-30 bg-linear-to-r from-[#945fff] to-[#742eff]">
+              <button className="hover:cursor-pointer flex justify-center items-center gap-4 hover:border-[#A374FF] rounded-full p-2  min-w-52 max-w-52 font-semibold shadow-[0_8px_24px_rgba(163,116,255,0.5)] hover:shadow-[0_12px_32px_rgba(163,116,255,0.7)] transition-all duration-30 bg-linear-to-r from-[#945fff] to-[#742eff] text-gray-100">
                 <MessageCircle />
                 Pilih Paket
               </button>
             </div>
-            <div className="absolute left-1/2 -translate-x-1/2 -top-4 bg-linear-to-r from-[#945fff] to-[#742eff] px-4 py-1 rounded-full text-white font-semibold text-sm shadow-lg">
+            <div className="absolute left-1/2 -translate-x-1/2 -top-4 bg-linear-to-r from-[#945fff] to-[#742eff] px-4 py-1 rounded-full text-gray-100 font-semibold text-sm shadow-lg">
               Paling Populer!
             </div>
           </section>
