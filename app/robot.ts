@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/api/', '/admin/'], // Block jika ada halaman private
+      disallow: ['/api/', '/admin/'],
     },
     sitemap: 'https://semar-id.vercel.app/sitemap.xml',
   }

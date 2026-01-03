@@ -22,12 +22,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
-    // Nanti tambahkan halaman blog di sini
-    // {
-    //   url: `${baseUrl}/blog/artikel-1`,
-    //   lastModified: new Date('2025-01-03'),
-    //   changeFrequency: 'monthly',
-    //   priority: 0.7,
-    // },
   ]
 }
