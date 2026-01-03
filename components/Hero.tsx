@@ -18,7 +18,7 @@ export const Hero = () => {
             #1 untuk UKM & Startup Kami bantu bisnis lokal muncul di Google & terlihat profesional dikerjakan langsung tanpa perantara.
           </p>
             <span className="text-[#17F1D1] font-normal text-sm md:text-xl text-center">Tingkatkan kredibilitas bisnis Anda dalam 3-7 hari kerja!</span>
-          <div className="flex flex-wrap justify-center items-center gap-6 mt-22 max-w-100 min-w-100 md:min-w-180 md:max-w-180">
+          <div className="flex flex-wrap justify-center items-center gap-6 mt-22 sm:max-w-100 sm:min-w-100 md:min-w-180 md:max-w-180">
             <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
               <Layers />
               Modern Tech Stack
@@ -43,7 +43,7 @@ export const Hero = () => {
             </button>
           </div>
         </div>
-        <p>📍 SAMARINDA, INDONESIA</p>
+        <p>📍 TENGGARONG SEBERANG, INDONESIA</p>
         {/* Mouse Scroll Indicator */}
         <div
           className="w-6 h-10 border-2 border-white rounded-full relative"

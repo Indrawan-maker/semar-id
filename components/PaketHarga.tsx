@@ -11,8 +11,8 @@ export const PaketHarga = () => {
           Pilih paket yang sesuai dengan kebutuhan bisnis Anda
         </p>
       </header>
-      <main className="grid md:flex w-full mt-22">
-        <section className="mx-auto grid px-12 min-w-94 max-w-94 border border-slate-600 transition-all duration-500 ease-in-out hover:scale-102 hover:border-[#A374FF] rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
+      <main className="grid md:flex w-full mt-22 place-content-center">
+        <section className="mx-auto grid px-2 sm:px-12 min-w-82 max-w-82 sm:min-w-94 sm:max-w-94 border border-slate-600 transition-all duration-500 ease-in-out hover:scale-102 hover:border-[#A374FF] rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
           <div className="flex flex-col items-center justify-start gap-1 leading-tight mt-8">
             <h4
               className="m-0
@@ -63,7 +63,7 @@ export const PaketHarga = () => {
         </section>
         {/* card 2*/}
         <div className="relative">
-          <section className="mx-auto grid px-12 min-w-94 max-w-94 border transition-all duration-500 ease-in-out scale-102 border-[#A374FF] bg-[#A374FF]/12  rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
+          <section className="mx-auto grid px-12 min-w-82 max-w-82 sm:min-w-94 sm:max-w-94 border transition-all duration-500 ease-in-out scale-102 border-[#A374FF] bg-[#A374FF]/12 rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
             <div className="flex flex-col items-center justify-start gap-1 leading-tight mt-8">
               <h4
                 className="m-0
@@ -121,7 +121,7 @@ export const PaketHarga = () => {
           </section>
         </div>
         {/* card 3 */}
-        <section className="mx-auto grid px-12 min-w-94 max-w-94 border border-slate-600 transition-all duration-500 ease-in-out hover:scale-102 hover:border-[#A374FF] rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
+        <section className="mx-auto grid px-12 min-w-82 max-w-82 sm:min-w-94 sm:max-w-94 border border-slate-600 transition-all duration-500 ease-in-out hover:scale-102 hover:border-[#A374FF] rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
           <div className="flex flex-col items-center justify-start gap-1 leading-tight mt-8">
             <h4
               className="m-0

@@ -13,25 +13,25 @@ export const Portfolio = () => {
       </header>
       <main>
         <section className="grid md:grid-cols-3 mx-auto max-w-280 gap-10 mt-22 mb-12">
-            <div className="w-92 mx-auto">
+            <div className="w-82 md:w-92 mx-auto">
             <Carousel />
             </div>
-            <div className="w-92 mx-auto">
+            <div className="w-82 md:w-92 mx-auto">
               <Carousel />
             </div>
-            <div className="w-92 mx-auto">
+            <div className="w-82 md:w-92 mx-auto">
              <Carousel />
             </div>
-            <div className="w-92 mx-auto">
+            <div className="w-82 md:w-92 mx-auto">
              <Carousel />
             </div>
-            <div className="w-92 mx-auto">
+            <div className="w-82 md:w-92 mx-auto">
              <Carousel />
             </div>
-            <div className="w-92 mx-auto">
+            <div className="w-82 md:w-92 mx-auto">
              <Carousel />
             </div>
-            <div className="w-92 mx-auto">
+            <div className="w-82 md:w-92 mx-auto">
              <Carousel />
             </div>
         </section>
