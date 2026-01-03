@@ -16,16 +16,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jasa Pembuatan Website Tenggarong Seberang | SEMAR Web Agensi",
-  description: "Jasa pembuatan website profesional di Tenggarong & Tenggarong Seberang, Kutai Kartanegara. Spesialis UKM & Startup. Website modern, SEO-friendly, responsive. Pengerjaan cepat 3-7 hari kerja. Konsultasi gratis sekarang!",
+  title: "Jasa Pembuatan Website Tenggarong, Samarinda, Balikpapan | SEMAR",
+  description: "Jasa pembuatan website profesional di Tenggarong Seberang, Samarinda, dan Balikpapan. Spesialis UKM & Startup. Website modern, SEO-friendly, responsive. Pengerjaan cepat 3-7 hari kerja. Konsultasi gratis sekarang!",
   keywords: [
     "jasa pembuatan website tenggarong",
     "jasa pembuatan website tenggarong seberang",
+    "jasa pembuatan website samarinda",
+    "jasa pembuatan website balikpapan",
     "semar web agensi",
     "web developer tenggarong",
+    "web developer samarinda",
+    "web developer balikpapan",
     "jasa website kutai kartanegara",
-    "pembuatan website ukm tenggarong",
+    "pembuatan website ukm samarinda",
+    "pembuatan website ukm balikpapan",
     "web design tenggarong",
+    "web design balikpapan",
     "jasa web profesional kalimantan timur"
   ].join(", "),
   authors: [{ name: "SEMAR Web Agensi" }],
@@ -36,29 +42,29 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.semarwebagensi.com'), // Ganti dengan URL Anda
+  metadataBase: new URL('https://semar-id.vercel.app'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "Jasa Pembuatan Website Tenggarong Seberang | SEMAR Web Agensi",
-    description: "Website profesional untuk UKM & Startup di Tenggarong. Modern, cepat, SEO-friendly. Konsultasi gratis!",
-    url: 'https://www.semarwebagensi.com',
+    title: "Jasa Pembuatan Website Tenggarong, Samarinda, Balikpapan | SEMAR",
+    description: "Website profesional untuk UKM & Startup di Kalimantan Timur. Modern, cepat, SEO-friendly. Konsultasi gratis!",
+    url: 'https://semar-id.vercel.app',
     siteName: "SEMAR Web Agensi",
     locale: "id_ID",
     type: "website",
     images: [
       {
-        url: '/og-image.jpg', // Buat image ini 1200x630px
+        url: '/og-image.jpg', 
         width: 1200,
         height: 630,
-        alt: 'SEMAR Web Agensi - Jasa Pembuatan Website Tenggarong',
+        alt: 'SEMAR Web Agensi - Jasa Pembuatan Website Tenggarong, Samarinda, Balikpapan',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Jasa Pembuatan Website Tenggarong | SEMAR Web Agensi",
+    title: "Jasa Pembuatan Website Tenggarong, Samarinda, Balikpapan | SEMAR",
     description: "Website profesional untuk UKM & Startup. Pengerjaan 3-7 hari. Konsultasi gratis!",
     images: ['/og-image.jpg'],
   },
@@ -74,7 +80,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code', // Dari Google Search Console
+    google: '76f2bdf997e7dd54', 
   },
 };
 
@@ -83,15 +89,15 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "SEMAR Web Agensi",
-  "image": "https://www.semarwebagensi.com/logo.png",
-  "description": "Jasa pembuatan website profesional di Tenggarong dan Tenggarong Seberang. Spesialis website untuk UKM dan Startup.",
-  "@id": "https://www.semarwebagensi.com",
-  "url": "https://www.semarwebagensi.com",
-  "telephone": "+62-xxx-xxxx-xxxx", // Ganti dengan nomor Anda
+  "image": "https://semar-id.vercel.app/logo.png", 
+  "description": "Jasa pembuatan website profesional di Tenggarong, Samarinda, dan Balikpapan. Spesialis website untuk UKM dan Startup Kalimantan Timur.",
+  "@id": "https://semar-id.vercel.app",
+  "url": "https://semar-id.vercel.app",
+  "telephone": "+62-822-5312-9334",
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Jalan Nama Jalan No. XX", // Ganti dengan alamat lengkap
+    "streetAddress": "Jalan Tenggarong Seberang", 
     "addressLocality": "Tenggarong Seberang",
     "addressRegion": "Kalimantan Timur",
     "postalCode": "75519",
@@ -99,8 +105,8 @@ const localBusinessSchema = {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": -0.4056, // Ganti dengan koordinat Anda
-    "longitude": 117.0164
+    "latitude": -0.291453, // ✅ Koordinat Anda yang benar
+    "longitude": 117.119913
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -115,9 +121,9 @@ const localBusinessSchema = {
     "closes": "17:00"
   },
   "sameAs": [
-    "https://www.facebook.com/yourpage", // Ganti dengan social media Anda
-    "https://www.instagram.com/yourpage",
-    "https://www.linkedin.com/company/yourcompany"
+    "https://www.instagram.com/semarwebsoftware/", // ⚠️ GANTI dengan link real
+    "https://www.tiktok.com/@semarwebsoftware", // ⚠️ GANTI dengan link real
+    "https://api.whatsapp.com/send/?phone=6282253129334&text=Halo+kak+saya+mau+konsultasi+tentang&type=phone_number&app_absent=0" // Link WhatsApp
   ],
   "areaServed": [
     {
@@ -129,8 +135,20 @@ const localBusinessSchema = {
       "name": "Tenggarong Seberang"
     },
     {
+      "@type": "City",
+      "name": "Samarinda"
+    },
+    {
+      "@type": "City",
+      "name": "Balikpapan" 
+    },
+    {
       "@type": "State",
       "name": "Kutai Kartanegara"
+    },
+    {
+      "@type": "State",
+      "name": "Kalimantan Timur"
     }
   ],
   "serviceType": [
@@ -147,11 +165,11 @@ const organizationSchema = {
   "@type": "Organization",
   "name": "SEMAR Web Agensi",
   "alternateName": "SEMAR",
-  "url": "https://www.semarwebagensi.com",
-  "logo": "https://www.semarwebagensi.com/logo.png",
+  "url": "https://semar-id.vercel.app",
+  "logo": "https://semar-id.vercel.app/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+62-xxx-xxxx-xxxx",
+    "telephone": "+62-822-5312-9334",
     "contactType": "customer service",
     "areaServed": "ID",
     "availableLanguage": ["Indonesian"]
