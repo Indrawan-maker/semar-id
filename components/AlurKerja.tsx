@@ -2,15 +2,15 @@ export const AlurKerja = () => {
     return (
         <>
         <header className="flex flex-col justify-center items-center gap-12 mt-36">
-                <div className="text-[#FFFFE3] text-5xl tracking-widest min-w-120 max-w-120 text-center font-semibold">
+                <div className="text-[#FFFFE3] text-3xl md:text-5xl tracking-widest min-w-80 max-w-80 md:min-w-180 md:max-w-180 text-center font-semibold">
                   Proses Kerja Kami
                 </div>
-                <p className="text-[#c1b08f] text-xl tracking-wider min-w-120 max-w-200 text-center font-normal -mt-6">
+                <p className="text-gray-100 text-xl tracking-wider min-w-80 max-w-80 md:min-w-160 md:max-w-160 text-center font-normal -mt-6">
                 6 langkah mudah untuk mendapatkan website impian anda
                 </p>
               </header>
               <main className="flex justify-center items-center">
-              <div className="grid grid-cols-3 grid-rows-2 mx-auto gap-8 mt-12">
+              <div className="grid md:grid-cols-3 grid-rows-2 mx-auto gap-8 mt-12">
                 <section className="bg-[#A374FF]/12 w-92 h-50 rounded-3xl p-6 border border-slate-600 hover:border-[#A374FF]">
                 <div className="bg-linear-to-br from-[#9333ea] via-[#7c3aed] to-[#6d28d9] hover:from-[#a78bfa] hover:via-[#8b5cf6] hover:to-[#6366f1]
            transition-all duration-500 w-18 h-18 rounded-full mx-auto flex items-center justify-center" >

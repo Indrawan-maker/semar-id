@@ -4,15 +4,15 @@ export const PaketHarga = () => {
   return (
     <>
       <header className="flex flex-col justify-center items-center gap-12 mt-36">
-        <div className="text-[#FFFFE3] text-5xl tracking-widest min-w-180 max-w-180 text-center font-semibold">
+        <div className="text-[#FFFFE3] text-3xl md:text-5xl tracking-widest min-w-80 max-w-80 md:min-w-180 md:max-w-180 text-center font-semibold">
           PAKET LAYANAN KAMI
         </div>
-        <p className="text-gray-100 text-xl tracking-wider min-w-160 max-w-160 text-center font-normal -mt-6">
+        <p className="text-gray-100 text-xl tracking-wider min-w-80 max-w-80 md:min-w-160 md:max-w-160 text-center font-normal -mt-6">
           Pilih paket yang sesuai dengan kebutuhan bisnis Anda
         </p>
       </header>
-      <main className="flex w-full mt-22">
-        <section className="mx-auto grid px-12 min-w-94 max-w-94 border border-slate-600 transition-all duration-500 ease-in-out hover:scale-102 hover:border-[#A374FF] rounded-4xl min-h-120 max-h-120">
+      <main className="grid md:flex w-full mt-22">
+        <section className="mx-auto grid px-12 min-w-94 max-w-94 border border-slate-600 transition-all duration-500 ease-in-out hover:scale-102 hover:border-[#A374FF] rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
           <div className="flex flex-col items-center justify-start gap-1 leading-tight mt-8">
             <h4
               className="m-0
@@ -63,7 +63,7 @@ export const PaketHarga = () => {
         </section>
         {/* card 2*/}
         <div className="relative">
-          <section className="mx-auto grid px-12 min-w-94 max-w-94 border transition-all duration-500 ease-in-out scale-102 border-[#A374FF] bg-[#A374FF]/12  rounded-4xl min-h-120 max-h-120">
+          <section className="mx-auto grid px-12 min-w-94 max-w-94 border transition-all duration-500 ease-in-out scale-102 border-[#A374FF] bg-[#A374FF]/12  rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
             <div className="flex flex-col items-center justify-start gap-1 leading-tight mt-8">
               <h4
                 className="m-0
@@ -121,7 +121,7 @@ export const PaketHarga = () => {
           </section>
         </div>
         {/* card 3 */}
-        <section className="mx-auto grid px-12 min-w-94 max-w-94 border border-slate-600 transition-all duration-500 ease-in-out hover:scale-102 hover:border-[#A374FF] rounded-4xl min-h-120 max-h-120">
+        <section className="mx-auto grid px-12 min-w-94 max-w-94 border border-slate-600 transition-all duration-500 ease-in-out hover:scale-102 hover:border-[#A374FF] rounded-4xl min-h-120 max-h-120 mb-12 md:mb-0">
           <div className="flex flex-col items-center justify-start gap-1 leading-tight mt-8">
             <h4
               className="m-0

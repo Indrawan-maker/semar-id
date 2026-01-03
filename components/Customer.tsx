@@ -6,10 +6,10 @@ export const Customer = () => {
   return (
     <>
       <header className="flex flex-col justify-center items-center gap-12 mt-36">
-        <div className="text-[#FFFFE3] text-5xl tracking-widest min-w-120 max-w-120 text-center font-semibold">
+        <div className="text-[#FFFFE3] text-4xl md:text-5xl tracking-widest min-w-80 max-w-80 md:min-w-180 md:max-w-180 text-center font-semibold">
           Customer Kami
         </div>
-        <p className="text-gray-500 text-xl tracking-wider min-w-120 max-w-200 text-center font-normal -mt-6">
+        <p className="text-gray-100 text-md tracking-wider min-w-80 max-w-80 md:min-w-160 md:max-w-160 text-center font-normal -mt-6">
         Setiap Layanan yang kami kembangkan menghasilkan value bisnis yang
         membuat mereka mempercayakan jasa pembuatan websitenya kepada kami
         </p>

@@ -9,19 +9,16 @@ export const Hero = () => {
           <div className="border border-[#A374FF] rounded-4xl p-2 text-[#A374FF] min-w-60 max-w-60 text-center font-semibold">
             Menuju Level Berikutnya
           </div>
-          <h2 className="font-bold text-9xl text-[#FFFFE3]">SEMAR</h2>
-          <p className="font-bold text-5xl text-[#FFD074] flex flex-wrap">
+          <h2 className="font-bold text-6xl md:text-9xl text-[#FFFFE3]">SEMAR</h2>
+          <p className="font-bold text-3xl md:text-5xl text-[#FFD074] max-w-80 min-w-80 md:max-w-180 md:min-w-180 text-center">
             Jasa Pembuatan Website Profesional
           </p>
-          <p className="font-normal text-xl text-center text-[#FFFFE3] mt-8">
-            #1 untuk UKM & Startup Kami bantu bisnis lokal muncul di Google &
-            terlihat profesional <br /> dikerjakan langsung tanpa perantara.
-            <span className="text-[#17F1D1]">
-              {" "}
-              Tingkatkan kredibilitas bisnis Anda dalam 3-7 hari kerja!
-            </span>
+          
+          <p className="flex flex-wrap font-normal text-sm md:text-xl text-center max-w-80 min-w-80 md:max-w-180 md:min-w-180 text text-[#FFFFE3] mt-4 md:mt-8">
+            #1 untuk UKM & Startup Kami bantu bisnis lokal muncul di Google & terlihat profesional dikerjakan langsung tanpa perantara.
           </p>
-          <div className="flex justify-center items-center gap-6 mt-22">
+            <span className="text-[#17F1D1] font-normal text-sm md:text-xl text-center">Tingkatkan kredibilitas bisnis Anda dalam 3-7 hari kerja!</span>
+          <div className="flex flex-wrap justify-center items-center gap-6 mt-22 max-w-100 min-w-100 md:min-w-180 md:max-w-180">
             <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
               <Layers />
               Modern Tech Stack
@@ -35,8 +32,8 @@ export const Hero = () => {
               Quality Assurance
             </span>
           </div>
-          <div className="flex gap-4 mt-18">
-            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#17F1D1] rounded-full p-2 text-[#FFFFE3] min-w-62 max-w-62 font-semibold">
+          <div className="grid md:flex gap-8 md:gap-4 mt-22 md:mt-18 ">
+            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#17F1D1] rounded-full p-2 text-[#FFFFE3] min-h-18 max-h-18 min-w-62 max-w-62 font-semibold">
               <MessageCircle />
               Konsultasi Gratis
             </button>
