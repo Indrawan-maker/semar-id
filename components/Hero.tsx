@@ -11,7 +11,7 @@ export const Hero = () => {
           </div>
           <h1 className="font-bold text-6xl md:text-9xl text-[#FFFFE3]">SEMAR</h1>
           <h2 className="font-bold text-3xl md:text-5xl text-[#FFD074] max-w-80 min-w-80 md:max-w-180 md:min-w-180 text-center">
-            Jasa Pembuatan Website Profesional
+            SOFTWARE HOUSE
           </h2>
           
           <p className="flex flex-wrap font-normal text-sm md:text-xl text-center max-w-80 min-w-80 md:max-w-180 md:min-w-180 text text-[#FFFFE3] mt-4 md:mt-8">
