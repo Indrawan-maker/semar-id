@@ -1,67 +1,26 @@
-"use client";
-import { ArrowRight, MessageCircle, Layers, Award, Zap,} from "lucide-react";
-// import Link from "next/link";
+import Nav from "@/components/Nav";
+import { Hero } from "@/components/Hero";
+import { PaketHarga } from "@/components/PaketHarga";
+import { Portfolio } from "@/components/Portfolio";
+import { Customer } from "@/components/Customer";
+import { AlurKerja } from "@/components/AlurKerja";
+import { Footer } from "@/components/Footer";
+import Head from "next/head";
 
-export default function SamarindaPage() {
+export default function Home() {
   return (
     <>
-      {/* Hero Section */}
-      <main className="grid place-items-center gap-12 mt-34">
-        <div className="grid place-items-center gap-2">
-          <div className="border border-[#A374FF] rounded-4xl p-2 text-[#A374FF] min-w-60 max-w-60 text-center font-semibold">
-            Menuju Level Berikutnya
-          </div>
-          <h1 className="font-bold text-6xl md:text-9xl text-[#FFFFE3]">SEMAR</h1>
-          <h2 className="font-bold text-3xl md:text-5xl text-[#FFD074] max-w-80 min-w-80 md:max-w-180 md:min-w-180 text-center">
-            Jasa Pembuatan Website Profesional
-          </h2>
-          
-          <p className="flex flex-wrap font-normal text-sm md:text-xl text-center max-w-80 min-w-80 md:max-w-180 md:min-w-180 text text-[#FFFFE3] mt-4 md:mt-8">
-            #1 untuk UKM & Startup Kami bantu bisnis lokal muncul di Google & terlihat profesional dikerjakan langsung tanpa perantara.
-          </p>
-            <span className="text-[#17F1D1] font-normal text-sm md:text-xl text-center">Tingkatkan kredibilitas bisnis Anda dalam 3-7 hari kerja!</span>
-          <div className="flex flex-wrap justify-center items-center gap-6 mt-22 sm:max-w-100 sm:min-w-100 md:min-w-180 md:max-w-180">
-            <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
-              <Layers />
-              Modern Tech Stack
-            </span>
-            <span className="flex justify-center items-center gap-2 border border-[#FFD074] rounded-4xl p-2 text-[#FFD074] min-w-40 max-w-40  font-semibold">
-              <Zap />
-              Fast Delivery
-            </span>
-            <span className="flex justify-center items-center gap-2 border border-[#FFFFE3] rounded-4xl p-2 text-[#FFFFE3] min-w-52 max-w-52 font-semibold">
-              <Award />
-              Quality Assurance
-            </span>
-          </div>
-          <div className="grid md:flex gap-8 md:gap-4 mt-22 md:mt-18 ">
-            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#17F1D1] rounded-full p-2 text-[#FFFFE3] min-h-18 max-h-18 min-w-62 max-w-62 font-semibold">
-              <MessageCircle />
-              Konsultasi Gratis
-            </button>
-            <button className="hover:cursor-pointer flex justify-center items-center gap-4 border border-[#FFFFE3] hover:border-2 hover:border-[#A374FF] rounded-full p-2 text-[#FFFFE3] min-h-18 max-h-18 min-w-62 max-w-62 font-semibold transition-all duration-500 ease-in-out hover:scale-105">
-              <ArrowRight />
-              Lihat Portfolio
-            </button>
-          </div>
-        </div>
-        <p>📍 Samarinda, INDONESIA</p>
-        {/* Mouse Scroll Indicator */}
-        <div
-          className="w-6 h-10 border-2 border-white rounded-full relative"
-          style={{
-            animation: "mouse-body-bounce 1.8s ease-in-out infinite",
-          }}
-        >
-          <span
-            className="w-1 h-2 bg-white absolute left-1/2 top-2 rounded-full"
-            style={{
-              animation: "mouse-scroll 1.8s ease-in-out infinite",
-              transform: "translateX(-50%)",
-            }}
-          ></span>
-        </div>
-      </main>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+      </Head>
+      <Nav />
+      <Hero />
+      <PaketHarga />
+      <Portfolio />
+      <AlurKerja />
+      <Customer />
+      <Footer />
     </>
   );
 }
