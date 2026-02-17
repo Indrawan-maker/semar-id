@@ -1,0 +1,1 @@
+// tampilin satu aja terus ada lihat semua
