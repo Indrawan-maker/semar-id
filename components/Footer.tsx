@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from "@/public/images/semar-logo.png"
+import logo from "@/public/images/logo.png"
 export const Footer = () => {
     return (
         <>
