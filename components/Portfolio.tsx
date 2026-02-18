@@ -3,7 +3,7 @@ import Carousel from "./ui/Carousel";
 export const Portfolio = () => {
   return (
     <>
-      <header className="flex flex-col justify-center items-center gap-12 mt-36">
+    <header className="flex flex-col justify-center items-center gap-12 mt-auto md:mt-36">
         <div className="text-[#FFFFE3] text-3xl md:text-5xl tracking-widest min-w-80 max-w-80 md:min-w-180 md:max-w-180 text-center font-semibold">
           Portfolio Terbaru
         </div>
