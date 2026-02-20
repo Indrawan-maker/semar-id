@@ -8,12 +8,14 @@ import type { cardProps } from '@/app/types';
 export const Card = ({ projectTitle,  projectImage}: cardProps) => {
 
     const [isOpen, setIsOpen] = useState(false);
+    
     return (
+
         <div>
             <div className='justify-center items-center flex'
                onClick={() => setIsOpen(true)}>
-                <section className="w-72 h-82 md:w-72 md:h-82 border border-white rounded-md transition-transform duration-300 md:mb-0 mb-6
-    hover:-translate-y-2 hover:shadow-lg relative">
+                <section className="w-72 h-82 md:w-72 md:h-82 border border-white rounded-md transition-transform duration-300 md:mb-0 mb-6 mt-2
+   hover:-translate-y-2 hover:shadow-lg relative">
         <div className='relative w-full h-[240]'>
                     <Image
                         src={projectImage}
@@ -51,7 +53,6 @@ export const Card = ({ projectTitle,  projectImage}: cardProps) => {
                             >
                                 <X size={16} />
                             </button>
-
                             {/* Full Image */}
                             <Image
                                 src={projectImage}

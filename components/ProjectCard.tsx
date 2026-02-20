@@ -20,7 +20,7 @@ export const ProjectCard = () => {
         />
         {/* pemisah antar project */}
         <Card projectTitle='Pembayaran joki skripsi'
-        projectImage={projectImage4} 
+        projectImage={projectImage4}
         />
         <Card projectTitle='Pembayaran joki skripsi'
         projectImage={projectImage4} 

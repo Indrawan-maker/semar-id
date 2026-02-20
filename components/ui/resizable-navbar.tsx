@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { IconMenu2, IconX } from "@tabler/icons-react";
+import logo from "@/public/images/logo.png";
 import {
   motion,
   AnimatePresence,
@@ -237,7 +238,7 @@ export const NavbarLogo = () => {
       <motion.div initial={{ scale: 1 }} animate={{ scale: 1 }}>
         <Image
           className="rounded-full"
-          src="/images/semar-logo.png"
+          src={logo}
           alt="logo"
           width={40}
           height={40}
