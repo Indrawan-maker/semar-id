@@ -2,6 +2,7 @@ import projectImage1 from '@/public/images/porto1.png'
 import projectImage2 from '@/public/images/porto2.png'
 import projectImage3 from '@/public/images/porto2.png'
 import projectImage4 from '@/public/images/porto3.png'
+import bukti1 from '@/public/images/customer/pmbyrn.webp'
 import { Card } from './Card';
 
 export const ProjectCard = () => {
@@ -20,7 +21,7 @@ export const ProjectCard = () => {
         />
         {/* pemisah antar project */}
         <Card projectTitle='Pembayaran joki skripsi'
-        projectImage={projectImage4}
+        projectImage={bukti1}
         />
         <Card projectTitle='Pembayaran joki skripsi'
         projectImage={projectImage4} 

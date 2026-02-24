@@ -6,9 +6,7 @@ import { useState } from 'react';
 import type { cardProps } from '@/app/types';
 
 export const Card = ({ projectTitle,  projectImage}: cardProps) => {
-
     const [isOpen, setIsOpen] = useState(false);
-    
     return (
 
         <div>
@@ -64,7 +62,6 @@ export const Card = ({ projectTitle,  projectImage}: cardProps) => {
                         </motion.div>
                     </motion.div>
                 )}
-
             </AnimatePresence>
         </div>
     )
