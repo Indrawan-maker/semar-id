@@ -6,6 +6,7 @@ import { Customer } from "@/components/Customer";
 import { AlurKerja } from "@/components/AlurKerja";
 import { Footer } from "@/components/Footer";
 import { BuktiPembayaran } from "@/components/BuktiPembayran";
+import Faq  from "@/components/Faq";
 import Head from "next/head";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <BuktiPembayaran />
       <Portfolio />
       <AlurKerja />
+      <Faq />
       <Customer />
       <Footer />
     </>
