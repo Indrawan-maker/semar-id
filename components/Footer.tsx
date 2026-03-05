@@ -99,7 +99,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-
+        
         <div>
           <p className="font-medium text-gray-900 dark:text-white">Perusahaan</p>
 

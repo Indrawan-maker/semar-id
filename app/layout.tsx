@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import SmoothScroll from "@/components/SmoothScroll"; 
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Script from "next/script";
 
@@ -188,7 +187,6 @@ export default function RootLayout({
           <div className="absolute top-[40%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-175 h-175 bg-indigo-500/10 rounded-full blur-[180px]" />
         </div>
 
-        <SmoothScroll />
         <WhatsAppButton />
 
         {children}
